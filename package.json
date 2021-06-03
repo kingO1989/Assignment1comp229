@@ -1,9 +1,13 @@
 {
-  "name": "comp229-s2021week3",
-  "version": "0.0.1",
+  "name": "webdevassignment1",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  }, 
+  "engines":{
+    "node": "^12.00.0",
+    "npm":"^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -16,18 +20,5 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "poppers.js": "^1.16.1"
-  },
-  "description": "assignment 1",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kingO1989/Assignment1comp229.git"
-  },
-  "author": "Abdulsaheed Durodola",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kingO1989/Assignment1comp229/issues"
-  },
-  "homepage": "https://github.com/kingO1989/Assignment1comp229#readme"
+  }
 }
